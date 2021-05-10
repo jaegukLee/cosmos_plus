@@ -1,0 +1,77 @@
+22:31:28 **** Incremental Build of configuration Debug for project GreedyFTL ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+22:31:28 Build Finished (took 235ms)
+
+22:31:28 **** Incremental Build of configuration Release for project GreedyFTL ****
+make all 
+'Building file: ../src/nvme/host_lld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/nvme/host_lld.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvme/host_lld.d" -MT"src/nvme/host_lld.d" -o "src/nvme/host_lld.o" "../src/nvme/host_lld.c"
+'Finished building: ../src/nvme/host_lld.c'
+' '
+'Building file: ../src/nvme/nvme_admin_cmd.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/nvme/nvme_admin_cmd.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvme/nvme_admin_cmd.d" -MT"src/nvme/nvme_admin_cmd.d" -o "src/nvme/nvme_admin_cmd.o" "../src/nvme/nvme_admin_cmd.c"
+'Finished building: ../src/nvme/nvme_admin_cmd.c'
+' '
+'Building file: ../src/nvme/nvme_identify.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/nvme/nvme_identify.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvme/nvme_identify.d" -MT"src/nvme/nvme_identify.d" -o "src/nvme/nvme_identify.o" "../src/nvme/nvme_identify.c"
+'Finished building: ../src/nvme/nvme_identify.c'
+' '
+'Building file: ../src/nvme/nvme_io_cmd.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/nvme/nvme_io_cmd.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvme/nvme_io_cmd.d" -MT"src/nvme/nvme_io_cmd.d" -o "src/nvme/nvme_io_cmd.o" "../src/nvme/nvme_io_cmd.c"
+'Finished building: ../src/nvme/nvme_io_cmd.c'
+' '
+'Building file: ../src/nvme/nvme_main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/nvme/nvme_main.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvme/nvme_main.d" -MT"src/nvme/nvme_main.d" -o "src/nvme/nvme_main.o" "../src/nvme/nvme_main.c"
+'Finished building: ../src/nvme/nvme_main.c'
+' '
+'Building file: ../src/fmc_driver.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/fmc_driver.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fmc_driver.d" -MT"src/fmc_driver.d" -o "src/fmc_driver.o" "../src/fmc_driver.c"
+'Finished building: ../src/fmc_driver.c'
+' '
+'Building file: ../src/init_ftl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/init_ftl.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/init_ftl.d" -MT"src/init_ftl.d" -o "src/init_ftl.o" "../src/init_ftl.c"
+'Finished building: ../src/init_ftl.c'
+' '
+'Building file: ../src/low_level_scheduler.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/low_level_scheduler.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/low_level_scheduler.d" -MT"src/low_level_scheduler.d" -o "src/low_level_scheduler.o" "../src/low_level_scheduler.c"
+'Finished building: ../src/low_level_scheduler.c'
+' '
+'Building file: ../src/lru_buffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/lru_buffer.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lru_buffer.d" -MT"src/lru_buffer.d" -o "src/lru_buffer.o" "../src/lru_buffer.c"
+'Finished building: ../src/lru_buffer.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/main.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/page_map.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/page_map.o" -I../../GreedyFTL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/page_map.d" -MT"src/page_map.d" -o "src/page_map.o" "../src/page_map.c"
+'Finished building: ../src/page_map.c'
+' '
+'Building target: GreedyFTL.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL_bsp/ps7_cortexa9_0/lib -o "GreedyFTL.elf"  ./src/nvme/host_lld.o ./src/nvme/nvme_admin_cmd.o ./src/nvme/nvme_identify.o ./src/nvme/nvme_io_cmd.o ./src/nvme/nvme_main.o  ./src/fmc_driver.o ./src/init_ftl.o ./src/low_level_scheduler.o ./src/lru_buffer.o ./src/main.o ./src/page_map.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GreedyFTL.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size GreedyFTL.elf  |tee "GreedyFTL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87364	   3096	  23020	 113480	  1bb48	GreedyFTL.elf
+'Finished building: GreedyFTL.elf.size'
+' '
+22:32:36 **** Incremental Build of configuration Debug for project GreedyFTL ****
+make all 
+make: `all'를 위해 할 일이 없습니다

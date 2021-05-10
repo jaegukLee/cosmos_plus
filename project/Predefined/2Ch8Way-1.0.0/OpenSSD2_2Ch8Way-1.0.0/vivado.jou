@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Apr 01 15:30:04 2021
+# Process ID: 24572
+# Log file: C:/Cosmos-plus-OpenSSD-master/project/Predefined/2Ch8Way-1.0.0/OpenSSD2_2Ch8Way-1.0.0/vivado.log
+# Journal file: C:/Cosmos-plus-OpenSSD-master/project/Predefined/2Ch8Way-1.0.0/OpenSSD2_2Ch8Way-1.0.0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Cosmos-plus-OpenSSD-master/project/Predefined/2Ch8Way-1.0.0/OpenSSD2_2Ch8Way-1.0.0/OpenSSD2.xpr
+launch_runs synth_1
+wait_on_run synth_1
